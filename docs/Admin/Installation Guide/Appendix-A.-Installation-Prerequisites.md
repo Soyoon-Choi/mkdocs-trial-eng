@@ -5,22 +5,22 @@
 User resource limit values can be confirmed or changed with the OS command, "ulimit".
 
 -   File Size  
-    The maximum file size treatable by the process
+:    The maximum file size treatable by the process
 
 -   Data Segment Size  
-    The maximum size of logical memory the process can use (vsz field).
+:    The maximum size of logical memory the process can use (vsz field).
 
 -   Max Memory Size  
-    The maximum size of physical memory the process can use (RSS field)
+:    The maximum size of physical memory the process can use (RSS field)
 
 -   Open Files (descriptor)  
-    The Maximum number of files and sockets simultaneously accessible by the process.
+:    The Maximum number of files and sockets simultaneously accessible by the process.
 
 -   Stack size
-    The maximum size of the stack
+:    The maximum size of the stack
 
 -   Virtual memory  
-    The maximum size of virtual memory usable by the process. 
+:    The maximum size of virtual memory usable by the process. 
 
 Unix users are recommended to set the resource limit values of a user's account to "unlimited" (caution is required that the core file size is not set to "unlimited"). If the Altibase server crashes and dumps the core, it will store every memory database as a core file, so setting it to unlimited may cause disk shortage. Altibase client products must have a stack size of at least 70KB.
 
@@ -31,10 +31,10 @@ System Kernel parameter values can be confirmed or changed with a utility provid
 System kernel parameters can be classified into the following: 
 
 -   Semaphore  
-    Semaphore setting for IPC connection
+:    Semaphore setting for IPC connection
 
 -   File-cache  
-    Settings for the prevention of memory insufficiency due to the operating system's file cache.
+:    Settings for the prevention of memory insufficiency due to the operating system's file cache.
 
 -   Other Settings
 
@@ -154,7 +154,7 @@ Depending on the file caching policy for AIX, the file system can swap-out memor
 
 For AIX 5.2 or higher, kernel parameters can be set as below to prevent the system from stealing: 
 
-```
+```bash
 minperm =  5%
 lru_file_repage = 0 (AIX 5.2 ML4 or higher)
 strict_maxclient = 0
@@ -186,7 +186,7 @@ However, sessions using the IPC connection can be abruptly cut off, if the Linux
 
 To set kernel parameters automatically when the server boots, add the following to the /etc/rc.d/rc/local file. 
 
-```
+```bash
 /etc/rc.d/rc.local Add the following entry in the file.
 echo 2147483648 > /proc/sys/kernel/shmmax
 echo 4096 > /proc/sys/kernel/shmmni
@@ -222,13 +222,13 @@ How to verify for THP Configuration are follows:
 
 1. Execute the following command indicated below: 
 
-   ```
+   ```bash
    $ cat /sys/kernel/mm/transparent_hugepage/enabled
    ```
 
 2. Execute the following command in RedHat Linux:
 
-   ```
+   ```bash
    $ cat /sys/kernel/mm/redhat_transparent_hugepage/enabled
    ```
 
@@ -244,7 +244,7 @@ It is advised to set the HTP option to never in order to run the Altibase operat
 
 1. Add transparent_hugepage=never to the end of the line kernel boot of /etc/grub.conf with the root account.
    
-```
+```bash
    .....
    kernel /vmlinuz-2.6.32-220.el6.x86_64 ro root=UUID=067b9803-90ca-4875-a018-ff043adde1ed rd_NO_LUKS LANG=ko_KR.UTF-8 rd_NO_MD quiet rhgb crashkernel=128M  KEYBOARDTYPE=pc KEYTABLE=us rd_NO_LVM rd_NO_DM transparent_hugepage=never
    ......
@@ -261,9 +261,9 @@ Redo log files and data files generally experience disk I/O in Altibase. To mini
 ### OS Patch
 
 #### Linux
-There is a bug in glibc that could cause deadlock due to race conditions such as malloc/free, and it must be patched beyond the patch taht reflects the bug. In this case, it is recommended to be glib patched with glibc-2.12-1.166.el6_7.1 and/or higher version. (Reference: https://bugzilla.redhat.com/show_bug.cgi?id=1244002)
+There is a bug in glibc that could cause deadlock due to race conditions such as malloc/free, and it must be patched beyond the patch taht reflects the bug. In this case, it is recommended to be glib patched with glibc-2.12-1.166.el6_7.1 and/or higher version. [Reference](https://bugzilla.redhat.com/show_bug.cgi?id=1244002)
 
 #### AIX
 
-When using Altibase on AIX, memory usage increases (hearpmin library bug). In this case, C/C++ compilers of the appropriate version must be patched from the IBM Support Portal (http://www-01.ibm.com/support/docview.wss?uid=swg21110831 ).
+When using Altibase on AIX, memory usage increases (hearpmin library bug). In this case, C/C++ compilers of the appropriate version must be patched from the [IBM Support Portal](http://www-01.ibm.com/support/docview.wss?uid=swg21110831).
 
