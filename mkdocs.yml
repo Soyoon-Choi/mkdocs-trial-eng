@@ -10,7 +10,6 @@ theme:
   favicon: img/favicon.ico
   logo: img/logo_w.png
   features:
-    - navigation.path
     - content.code.copy
     - navigation.top
     - navigation.tabs
@@ -19,8 +18,6 @@ theme:
     - search.share
 
 extra:
-#  version:
-#    alias: true
   alternate:
     - name: English
       link: /en/
@@ -32,11 +29,10 @@ extra:
 extra_css:
   - custom/style.css
 
-# extra_javascript:
-
-
 plugins:
   - search
+  - literate-nav:
+      nav_file: SUMMARY.md
 
 markdown_extensions:
   - attr_list
@@ -56,4 +52,7 @@ markdown_extensions:
   - pymdownx.blocks.details:
   - pymdownx.blocks.tab:
   - pymdownx.caret:
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
 
