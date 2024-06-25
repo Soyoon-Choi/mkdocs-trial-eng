@@ -1,7 +1,5 @@
 - [Home](index.md)
 - Admin
-    - Getting Started Gudie
-        - Admin/Getting Started Guide/*.md
     - Installation Guide
         - Admin/Installation Guide/*.md
     - Replication Manual
