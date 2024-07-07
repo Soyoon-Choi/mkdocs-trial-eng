@@ -3,6 +3,7 @@ site_url: https://soyoon-choi-mkdocs-trial.readthedocs-hosted.com
 
 theme:
   name: material
+  custom_dir: overrides
   palette:
     primary: custom
     accent: teal
@@ -16,6 +17,7 @@ theme:
     - navigation.tabs.sticky
     - search.suggest
     - search.share
+    - search.boost
 
 extra:
   alternate:
@@ -51,11 +53,7 @@ markdown_extensions:
       slugify: !!python/object/apply:pymdownx.slugs.slugify {kwds: {case: lower}}
       permalink: "#"
       toc_depth: 4
-  - pymdownx.blocks.html:
-  - pymdownx.blocks.details:
-  - pymdownx.blocks.tab:
   - pymdownx.caret:
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
-
