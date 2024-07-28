@@ -21,6 +21,10 @@ Altibase is a high-performance, high-availability, and scalable hybrid DBMS. By 
     Developer's Guide for Altibase
     [:octicons-arrow-right-24: Developer](Developer/index.md)
 
+</div>
+
+<div class="grid cards" markdown>
+
 -   __Version-dependent Tools__
 
     ---
