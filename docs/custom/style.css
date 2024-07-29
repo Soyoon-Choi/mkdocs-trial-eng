@@ -7,4 +7,8 @@
   width: 100%;
 }
 
+:root {
+  --md-primary-fg-color:        #105BA4;
+}
+
 readthedocs-flyout { display: none; }
