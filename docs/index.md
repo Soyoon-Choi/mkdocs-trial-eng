@@ -12,7 +12,7 @@ Altibase is a high-performance, high-availability, and scalable hybrid DBMS. By 
 
     DBMS Administrators or General Users
 
-    [:octicons-arrow-right-24: Admin](Admin/Getting%20Started%20Guide/0.-Preface.md)
+    [:octicons-arrow-right-24: Admin](Admin/Installation%20Guide/0.-Preface.md)
 
 -   __Developer__
 
