@@ -1,0 +1,33 @@
+# Table Of Contents
+
+- [Preface](#preface)
+  - [About This Manual](#about-this-manual)
+- [1. Introduction to Database Link](#1-introduction-to-database-link)
+  - [Related Terms](#related-terms)
+  - [Definition of Database Links](#definition-of-database-links)
+  - [Components of Altibase Database Link](#components-of-altibase-database-link)
+- [2. Supported Objects, SQL Statements, and Data Types](#2-supported-objects-sql-statements-and-data-types)
+  - [Database Link and SQL Statements](#database-link-and-sql-statements)
+  - [Accessible Remote Schema Objects](#accessible-remote-schema-objects)
+  - [Data Types Supported by Database Link](#data-types-supported-by-database-link)
+- [3. Configuration of Database Link](#3-configuration-of-database-link)
+  - [How DB Link Works](#how-db-link-works)
+  - [Configuration](#configuration)
+- [4. Database Link-Related SQL Statements](#4-database-link-related-sql-statements)
+  - [CREATE DATABASE LINK](#create-database-link)
+  - [DROP DATABASE LINK](#drop-database-link)
+  - [ALTER DATABASE LINKER](#alter-database-linker)
+  - [ALTER SESSION](#alter-session)
+  - [SELECT](#select)
+  - [REMOTE_EXECUTE_IMMEDIATE](#remote_execute_immediate)
+  - [REMOTE Functions Supportive of Binding](#remote-functions-supportive-of-binding)
+  - [REMOTE functions Supportive of Batch](#remote-functions-supportive-of-batch)
+  - [COMMIT FORCE DATABASE LINK](#commit-force-database-link)
+  - [ROLLBACK FORCE DATABASE LINK](#rollback-force-database-link)
+- [Appendix A. Properties and Data Dictionary](#appendix-a-properties-and-data-dictionary)
+  - [Data Dictionary related to Database Link](#data-dictionary-related-to-database-link)
+  - [Property Files](#property-files)
+  - [AltiLinker Properties](#altilinker-properties)
+
+
+

@@ -1,4 +1,4 @@
-## Appendix A. FAQ
+# Appendix A. FAQ
 
 ### Replication FAQ
 
