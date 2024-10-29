@@ -1,4 +1,4 @@
-## Appendix A. FAQ
+# Appendix A. FAQ
 
 ### Replication FAQ
 
@@ -64,4 +64,4 @@ Can I perform replication between memory and disk tables?
 
 ##### **Answer**
 
-Yes, it's possible.
+Yes, it's possible. 

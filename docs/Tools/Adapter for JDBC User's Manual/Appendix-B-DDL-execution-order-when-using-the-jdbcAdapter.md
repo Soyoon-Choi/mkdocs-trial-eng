@@ -1,0 +1,20 @@
+# Appendix B: DDL execution order when using the jdbcAdapter
+
+When using jdbcAdapter, DDL that is performing replication must be executed in the following order.
+
+| No                                                           | Active Server                                                | jdbcAdapter                                                  | Standby Server                                           |
+| ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | -------------------------------------------------------- |
+| 1. Create schema on both servers                             | CREATE TABLE T1 ( C1 INTEGER PRIMARY KEY, C2 SMALLINT );     |                                                              | CREATE TABLE T1 ( C1 INTEGER PRIMARY KEY, C2 SMALLINT ); |
+| 2. Creating replication with ANALYSIS                        | CREATE REPLICATION ala FOR ANALYSIS WITH 'Standby IP', Standby Port FROM SYS.T1 TO SYS T1; |                                                              |                                                          |
+| 3. Start the jdbcAdapter                                     |                                                              | \$ oaUtility start                                           |                                                          |
+| 4. Start the replication                                     | ALTER REPLICATION ala START;                                 |                                                              |                                                          |
+| 5. Flush syntax to remove replication gaps                   | ALTER REPLICATION ALA FLUSH ALL;                             |                                                              |                                                          |
+| 6. Setting property values related to replication for DDL execution | ALTER SYSTEM SET REPLICATION_DDL_ENABLE = 1; ALTER SYSTEM SET REPLICATION_DDL_ENABLE_LEVEL = 1; |                                                              |                                                          |
+| 7. Execute DDL on the active server                          |                                                              | Adapter termination (due to DDL log processing)              |                                                          |
+| 8. Check the jdbcAdapter trc log                             | SELECT REP_NAME, STATUS FROM V\$REPSENDER; Query to check STATUS 2 | 'Log Record : Meta change xlog was arrived, adapter will be finished' Check trc log message |                                                          |
+| 9. Execyte DDL on the standby server                         |                                                              |                                                              | DDL                                                      |
+| 10.Restart jdbcAdapter                                       |                                                              | \$ oaUtility start                                           |                                                          |
+| 11.Stop and restart replication (optional)                   | (optional) ALTER REPLICATION ALA STOP; ALTER REPLICATION ALA START; |                                                              |                                                          |
+| 12. Check for data replication                               | DML (Service)                                                |                                                              | Verify data replication                                  |
+| 13.Setting property values related to replication to stop DDL | ALTER SYSTEM SET REPLICATION_DDL_ENABLE = 0; ALTER SYSTEM SET REPLICATION_DDL_ENABLE_LEVEL = 0; |                                                              |                                                          |
+

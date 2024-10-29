@@ -1,112 +1,108 @@
-# Altibase 7.1 Manual
-
-**What is Altiabse?**
-
-Altibase is a high-performance, high-availability, and scalable hybrid DBMS. By combining in-memory and disk-based architectures, it offers both fast data processing speeds and reliability. Many enterprises efficiently manage their large-scale data using Altibase.
+---
+hide:
+  - footer
+  - toc
+  - navigation
+---
+# Altibase 7.1
 
 <div class="grid cards" markdown>
 
--   __Administrator__
+-   :octicons-desktop-download-16:{ .lg .middle } **Getting started**
 
     ---
 
-    DBMS Administrators or General Users
+    Your essential guide to getting started with Altibase, all in one place. With the manuals below, you'll find everything you need to get up to speed on installation, basic setup, and even the latest release notes to effectively get started with Altibase.
 
-    [:octicons-arrow-right-24: Admin](Admin/Installation%20Guide/0.-Preface.md)
+    - [Getting Started Guide](Admin/Getting%20Started%20Guide/Preface.md)
+    - [Installation Guide](Admin/Installation%20Guide/1.-About-the-Altibase-Package-Installer.md)
+    - [Release Notes](https://github.com/ALTIBASE/Documents/tree/master/ReleaseNotes/Altibase%207.1)
+    - [Patch Notes](https://github.com/ALTIBASE/Documents/tree/master/PatchNotes/Altibase_7.1)
 
--   __Developer__
+-   :material-database:{ .lg .middle } **Administration**
 
     ---
 
-    Developer's Guide for Altibase
-    [:octicons-arrow-right-24: Developer](Developer/index.md)
+    Check out the manuals that cover various features of Altibase. The manuals below provide detailed information on setting up redundancy, tuning performance, and more to help you manage your database.
 
+    - [Administrator's Manual](Admin/Administrator's%20Manual/1.-Introduction.md)
+    - [Altibase SSL TLS User's Guide](Admin/Altibase%20SSL%20TLS%20User's%20Guide/1.-Introduction-to-Altibase-SSLTLS.md)
+    - [DB Link User's Manual](Admin/DB%20Link%20User's%20Manual/1.-Introduction-to-Database-Link.md)
+    - [Performance Tuning Guide](Admin/Performance%20Tuning%20Guide/1.-Introduction-to-Performance-Tuning.md)
+    - [Replication Manual](Admin/Replication%20Manual/1.-Preface.md)
+    - [SNMP Agent Guide](Admin/SNMP%20Agent%20Guide/1.-Introduction-to-SNMP.md)
+        
 </div>
 
 <div class="grid cards" markdown>
 
--   __Version-dependent Tools__
+-   :fontawesome-solid-code-commit:{ .lg .middle } **Developer**
 
     ---
 
-    Version-dependent Tools Manual
-    [:octicons-arrow-right-24: Version-dependent Tools](Version-dependent Tools/index.md)
+    Get the manual you need to extend and develop Altibase for your environment. From stored procedures to how to utilize the various interfaces, we've got the information you need to get started.
 
--   __Tools__
+    - [Altibase C Interface Manual](Developer/Altibase%20C%20Interface%20Manual/1.-Introduction-to-Altibase-C-Interface.md)
+    - [API User's Manual](Developer/API%20User's%20Manual/1.PHP-Interface.md)
+    - [CLI User's Manual](Developer/CLI%20User's%20Manual/1.-Altibase-CLI-Introduction.md)
+    - [External Procedures Manual](Developer/External%20Procedures%20Manual/1.-Introduction.md)
+    - [JDBC User's Manual](Developer/JDBC%20User's%20Manual/1.-Starting-JDBC.md)
+    - [ODBC User's Manual](Developer/ODBC%20User's%20Manual/1.-Introduction.md)
+    - [Monitoring API Developer's Guide](Developer/Monitoring%20API%20Developer's%20Guide/1.-Introduction.md
+    - [Precompiler User's Manual](Developer/Precompiler%20User’s%20Manual/1.-The-CC-Precompiler.md)
+    - [Stored Procedures Manual](Developer/Stored%20Procedures%20Manual/1.-Introduction-to-Stored-Procedures.md)
+    
+-   :octicons-tools-16:{ .lg .middle } **Tools**
 
     ---
 
-    Altibase Tool Guide
-    [:octicons-arrow-right-24: Tools](Tools/index.md)
+    Check out the manuals that cover the various utility tools included in the Altibase package. We'll walk you through the tools you might find useful, including exporting data, running queries, loading tools, and more.
 
+    - [Adapter for JDBC User's Manual](Tools/Adapter%20for%20JDBC%20User's%20Manual/1.-Introduction.md)
+    - [Adapter for Oracle User's Manual](Tools/Adapter%20for%20Oracle%20User's%20Manual/1.-Introduction.md)
+    - [iLoader User's Manual](Tools/iLoader%20User's%20Manual/1.-iLoader-Overview.md)
+    - [iSQL User's Manual](Tools/iSQL%20User's%20Manual/1.-Using-iSQL.md)
+    - [Log Analyzer User's Manual](Tools/Log%20Analyzer%20User's%20Manual/1.-Log-Analyzer-Introduction.md)
+    - [Utilities Manual](Tools/Utilities%20Manual/1.-aexport.md)
+    
 </div>
 
 <div class="grid cards" markdown>
 
--   __Altibase 7.3__
+-   :octicons-link-external-16:{ .lg .middle } **External Tools**
 
     ---
 
-    Go to Altibase 7.3 Manuals
-    [:octicons-arrow-right-24: Altibase 7.3 Documentation](https://soyoon-choi-mkdocs-trial.readthedocs-hosted.com/en/7.3/)
+    A variety of external tools for use with Altibase are available for download from the Customer Service Portal. These tools help you integrate with external systems and make your data processing tasks more efficient.
+
+    - [Altibase 3rd Party Connector Guide](External%20Tools/Altibase%203rd%20Party%20Connector%20Guide/1.DBeaver.md)
+    - [Altibase Heartbeat User's Guide](External%20Tools/Altibase%20Heartbeat%20User's%20Guide/1.-Introduction-to-Altibase-Heartbeat.md)
+    - [altiShapeLoader User's Manual](External%20Tools/altiShapeLoader%20User's%20Manual/1.-Introduction-to-altiShapeLoader.md)
+    - [Migration Center User's Manual](External%20Tools/Migration%20Center%20User's%20Manual/1.-Introduction.md)
+    - [Replication Manager User's Manual](External%20Tools/Replication%20Manager%20User's%20Manual/1.-Introduction.md)
+
+-   :fontawesome-solid-book:{ .lg .middle } **References**
+
+    ---
+     
+    A single place for Altibase-related reference materials. Information on a variety of topics including SQL, data types, data dictionaries, error messages, and more.
+
+    - [Data Types & Properties](Admin/General%20Reference-1.Data%20Types%20&%20Altibase%20Properties/1.-Data-Types.md)
+    - [Data Dictionary](Admin/General%20Reference-2.The%20Data%20Dictionary/1.-The-Data-Dictionary.md)
+    - [SQL Reference](Developer/SQL%20Reference/1.-Introduction-to-Altibase-SQL.md)
+    - [Spatial SQL Reference](Developer/Spatial%20SQL%20Reference/1.-Overview-of-Spatial-Data.md)
+    - [Error Message](Admin/Error%20Message%20Reference/1.ID-Error-Code.md)
 
 </div>
 
-=== "Admin"
-    - [Getting Started Guide](https://github.com/ALTIBASE/Documents/blob/master/Manuals/Altibase_7.1/eng/Installation%20Guide.md)
-    - [Installation Guide](https://soyoon-choi-mkdocs-trial.readthedocs-hosted.com/en/7.1/Admin/Installation%20Guide/0.-Preface/)
-    - [Administrator's Manual](https://github.com/ALTIBASE/Documents/blob/master/Manuals/Altibase_7.1/eng/Administrator%E2%80%99s%20Manual.md)
-    - [Replication Manual](https://soyoon-choi-mkdocs-trial.readthedocs-hosted.com/en/7.1/Admin/Replication%20Manual/0.-Preface/)
-    - General_Reference
-        - [Data Types & Altibase Properties](https://github.com/ALTIBASE/Documents/blob/master/Manuals/Altibase_7.1/eng/General%20Reference-1.Data%20Types%20%26%20Altibase%20Properties.md)
-        - [Data Dictionary](https://github.com/ALTIBASE/Documents/blob/master/Manuals/Altibase_7.1/eng/General%20Reference-2.The%20Data%20Dictionary.md)
-    - [Performance Tuning Guide](https://github.com/ALTIBASE/Documents/blob/master/Manuals/Altibase_7.1/eng/Performance%20Tuning%20Guide.md)
-    - [SNMP Agent Guide](https://github.com/ALTIBASE/Documents/blob/master/Manuals/Altibase_7.1/eng/SNMP%20Agent%20Guide.md)
-    - [DB Link User's Manual](https://github.com/ALTIBASE/Documents/blob/master/Manuals/Altibase_7.1/eng/DB%20Link%20User's%20Manual.md)
-       
-=== "Developer"
-    - [SQL Reference](https://github.com/ALTIBASE/Documents/blob/master/Manuals/Altibase_7.1/eng/SQL%20Reference.md)
-    - [Spatial SQL Reference](https://github.com/ALTIBASE/Documents/blob/master/Manuals/Altibase_7.1/eng/Spatial%20SQL%20Reference.md)
-    - [Stored Procedures Manual](https://github.com/ALTIBASE/Documents/blob/master/Manuals/Altibase_7.1/eng/Stored%20Procedures%20Manual.md)
-    - [C/C++ External Procedures Manual](https://github.com/ALTIBASE/Documents/blob/master/Manuals/Altibase_7.1/eng/Altibase%20C%20Interface%20Manual.md)
-    - [Precompiler User's Manual](https://github.com/ALTIBASE/Documents/blob/master/Manuals/Altibase_7.1/eng/Precompiler%20User's%20Manual.md)
-    - [CLI User's Manual](https://github.com/ALTIBASE/Documents/blob/master/Manuals/Altibase_7.1/eng/CLI%20User's%20Manual.md)
-    - [ODBC User's Manual](https://github.com/ALTIBASE/Documents/blob/master/Manuals/Altibase_7.1/eng/ODBC%20User's%20Manual.md)
-    - [JDBC User's Manual](https://github.com/ALTIBASE/Documents/blob/master/Manuals/Altibase_7.1/eng/JDBC%20User's%20Manual.md)
-    - [API User's Manual](https://github.com/ALTIBASE/Documents/blob/master/Manuals/Altibase_7.1/eng/API%20User's%20Manual.md)
-    
-=== "Version Dependent Tools"
-    - [Adapter for JDBC User's Manual](https://github.com/ALTIBASE/Documents/blob/master/Manuals/Altibase_7.1/eng/Adapter%20for%20JDBC%20User's%20Manual.md)
-    - [Adapter for Oracle User's Manual](https://github.com/ALTIBASE/Documents/blob/master/Manuals/Altibase_7.1/eng/Adapter%20for%20Oracle%20User's%20Manual.md)
-    - [Altibase SSL/TLS User's Guide](https://github.com/ALTIBASE/Documents/blob/master/Manuals/Altibase_7.1/eng/Altibase%20SSL%20TLS%20User's%20Guide.md)
-    - [Hadoop Connector User's Manual](https://github.com/ALTIBASE/Documents/blob/master/Manuals/Altibase_7.1/eng/Hadoop%20Connector%20User's%20Manual.md)
-    - [iLoader User's Manual](https://github.com/ALTIBASE/Documents/blob/master/Manuals/Altibase_7.1/eng/iLoader%20User's%20Manual.md)
-    - [iSQL User's Manual](https://github.com/ALTIBASE/Documents/blob/master/Manuals/Altibase_7.1/eng/iSQL%20User's%20Manual.md)
-    - [Utilities Manual](https://github.com/ALTIBASE/Documents/blob/master/Manuals/Altibase_7.1/eng/Utilities%20Manual.md)
-    - [Altibase C Interface Manual](https://github.com/ALTIBASE/Documents/blob/master/Manuals/Altibase_7.1/eng/Altibase%20C%20Interface%20Manual.md)
-    - [Log Analyzer User's Manual](https://github.com/ALTIBASE/Documents/blob/master/Manuals/Altibase_7.1/eng/Log%20Analyzer%20User's%20Manual.md)
-    - [Monitoring API Developer's Guide](https://github.com/ALTIBASE/Documents/blob/master/Manuals/Altibase_7.1/eng/Monitoring%20API%20Developer's%20Guide.md)
-    
-=== "Tools"
-    - [Altibase 3rd Party Connector Guide](https://github.com/ALTIBASE/Documents/blob/master/Manuals/Tools/Altibase_release/eng/Altibase%203rd%20Party%20Connector%20Guide.md)
-    - [Altibase Heartbeat User's Guide](https://github.com/ALTIBASE/Documents/blob/master/Manuals/Tools/Altibase_release/eng/Altibase%20Heartbeat%20User's%20Guide.md)
-    - [altiShapeLoader User's Manual](https://github.com/ALTIBASE/Documents/blob/master/Manuals/Tools/Altibase_release/eng/altiShapeLoader%20User's%20Manual.md)
-    - [Migration Center User's Manual](https://github.com/ALTIBASE/Documents/blob/master/Manuals/Tools/Altibase_release/eng/Migration%20Center%20User's%20Manual.md)
-    - [Replication Manager User's Manual](https://github.com/ALTIBASE/Documents/blob/master/Manuals/Tools/Altibase_release/eng/Replication%20Manager%20User's%20Manual.md)
-    - [dataCompJ User's Manual](https://github.com/ALTIBASE/Documents/blob/master/Manuals/Tools/Altibase_release/eng/dataCompJ%20User's%20Manual.md)
-    
-=== "Message"
-    - [Error Message Reference](https://github.com/ALTIBASE/Documents/blob/master/Manuals/Altibase_7.1/eng/Error%20Message%20Reference.md)
+## Altibase Welcomes Your Feedback
 
-**Altibase Welcomes Your Comments and Feedback**
+Your valuable input will help us improve the manual. Please include the following information when sending us your feedback:
 
-Please let us know what you like or dislike about our manuals. To help us with better future versions of our manuals, please tell us if there are any corrections or classifications that you would find useful.
+- The name and version of the manual
+- Any comments about the manual
+- Your name, address, and phone number
 
-Include the following information:
+We also welcome feedback on errors, omissions, and other technical issues. If you need quick help, please contact us through our [Altibase Support Center](http://support.altibase.com/en/). We always appreciate your feedback!
 
-The name and version of the manual that you are using
-Any comments about the manual
-Your name, address, and phone number
-If you need immediate assistance regarding any errors, omissions, and other technical issues, please contact [Altibase's Support Portal](http://support.altibase.com/en/).
-
-Thank you. We always welcome your feedback and suggestions.
+We always appreciate your feedback!

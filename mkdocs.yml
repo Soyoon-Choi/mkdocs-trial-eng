@@ -15,9 +15,11 @@ theme:
     - navigation.top
     - navigation.tabs
     - navigation.tabs.sticky
+    - navigation.footer
     - search.suggest
     - search.share
     - search.boost
+    - toc.follow
 
 extra:
   alternate:
@@ -27,20 +29,39 @@ extra:
     - name: Korean
       link: /ko/7.1/
       lang: ko
+  social:
+    - icon: material/shield-account
+      link: https://www.altibase.com/en/etc/privacy.php
+      name: 개인정보 처리방침
+    - icon: fontawesome/brands/github 
+      link: https://github.com/ALTIBASE/Documents/tree/master/Manuals/Altibase_7.1/eng
+    - icon: fontawesome/solid/house
+      link: https://www.altibase.com/en/index.php
   analytics:
     provider: google
     property: G-QGH6FBLTP5
+  generator: false
+
+copyright: © 1999-2024 Altibase Corp.
 
 extra_css:
   - custom/style.css
 
+#extra_javascript:
+#  - javascripts/extra.js
+
 plugins:
-  - search
+  - search:
+      lang: 
+        - en
+        - ko
+      separator: '[\s\-\_,:!=\[\]()"/]+|\.(?!\d)|&[lg]t;'
   - exclude-search:
       exclude:
         - SUMMARY.md
   - literate-nav:
       nav_file: SUMMARY.md
+  - social
 
 markdown_extensions:
   - attr_list
