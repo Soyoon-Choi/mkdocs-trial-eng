@@ -7,7 +7,7 @@ font-size: 1.25rem;
 }
 
 :root {
-  --md-primary-fg-color:        #105BA4;
+  --md-primary-fg-color:        #004E91;
 }
 
 readthedocs-flyout { display: none; }
@@ -20,4 +20,21 @@ margin-right: 1%;
 display: -webkit-box;
 -webkit-line-clamp: 4;
 -webkit-box-orient: vertical;
+}
+
+.md-copyright__highlight {
+  color: #6F7073;
+}
+
+.md-social > a > svg > path {
+  fill:#6F7073
+}
+
+.md-footer .sitemap {
+  display: flex; 
+  justify-content:space-between; 
+  padding-left: 0%;
+  padding-right: 0%;
+  margin: auto;
+  max-width: 80%;
 }

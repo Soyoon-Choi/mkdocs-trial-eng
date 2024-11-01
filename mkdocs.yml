@@ -46,7 +46,7 @@ copyright: © 1999-2024 Altibase Corp.
 
 extra_css:
   - custom/style.css
-
+  
 #extra_javascript:
 #  - javascripts/extra.js
 
