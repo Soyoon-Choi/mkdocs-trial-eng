@@ -23,11 +23,6 @@ readthedocs-flyout { display: none; }
   margin: auto;
 }
 
-
-.md-search {
-margin-right: 1%;
-}
-
 .md-search-result .md-typeset {
 display: -webkit-box;
 -webkit-line-clamp: 4;
@@ -35,7 +30,6 @@ display: -webkit-box;
 }
 
 /*푸터 설정*/
-
 /*
 .md-footer {
   color: #6F7073;
