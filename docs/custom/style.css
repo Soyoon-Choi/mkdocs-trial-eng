@@ -1,3 +1,4 @@
+/* 전체 설정*/
 .md-grid {
   max-width: 80%;
 }
@@ -12,6 +13,17 @@ font-size: 1.25rem;
 
 readthedocs-flyout { display: none; }
 
+/* 헤더 설정 */
+.md-header__title .md-header__ellipsis .md-header__topic {
+  margin-top: 0.25em;
+  margin-bottom: 0.25em;
+}
+
+.md-header__option {
+  margin: auto;
+}
+
+
 .md-search {
 margin-right: 1%;
 }
@@ -22,19 +34,38 @@ display: -webkit-box;
 -webkit-box-orient: vertical;
 }
 
+/*푸터 설정*/
 .md-copyright__highlight {
   color: #6F7073;
 }
 
-.md-social > a > svg > path {
-  fill:#6F7073
+.md-footer-meta.md-typeset {
+  background-color: #D1D3D3;
 }
 
-.md-footer .sitemap {
-  display: flex; 
-  justify-content:space-between; 
-  padding-left: 0%;
-  padding-right: 0%;
+.md-footer-meta.md-typeset .sitemap-list {
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
   margin: auto;
   max-width: 80%;
+}
+
+.md-footer-meta.md-typeset .sitemap-list h4 {
+  color: #6F7073;
+}
+
+.md-footer-meta.md-typeset .sitemap-list li {
+  list-style: none;
+  padding: 0;
+  line-height: 100%;
+}
+
+.md-footer-meta.md-typeset .sitemap-list a {
+  color: #6F7073;
+  font-size: 0.75rem;
+}
+
+.md-social > a > svg > path {
+  fill:#6F7073
 }

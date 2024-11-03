@@ -33,12 +33,12 @@
     <!-- Header title -->
     <div class="md-header__title" data-md-component="header-title">
       <div class="md-header__ellipsis">
-        <div class="md-header__topic" style="margin-top: 0.25em; margin-bottom: 0.25em;">
+        <div class="md-header__topic">
           <span class="md-ellipsis">
             {{ config.site_name }}
           </span>
         </div>
-        <div class="md-header__topic" data-md-component="header-topic" style="margin-top: 0.25em; margin-bottom: 0.25em;">
+        <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             {% if page.meta and page.meta.title %}
               {{ page.meta.title }}
@@ -56,7 +56,7 @@
         {'link': 'https://soyoon-choi-mkdocs-trial.readthedocs-hosted.com/en/7.3/', 'name': '7.3'}
       ] %}
 
-      <div class="md-header__option" style="margin: auto">
+      <div class="md-header__option">
         <div class="md-select"> 
           {% set icon = "octicons/versions-24" %}
           <button class="md-header__button md-icon">
