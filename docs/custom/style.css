@@ -35,6 +35,13 @@ display: -webkit-box;
 }
 
 /*푸터 설정*/
+
+/*
+.md-footer {
+  color: #6F7073;
+  background-color: transparent;
+}*/ 
+
 .md-copyright__highlight {
   color: #6F7073;
 }
@@ -63,7 +70,7 @@ display: -webkit-box;
 
 .md-footer-meta.md-typeset .sitemap-list a {
   color: #6F7073;
-  font-size: 0.75rem;
+  font-size: 0.80rem;
 }
 
 .md-social > a > svg > path {
