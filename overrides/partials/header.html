@@ -52,8 +52,8 @@
 
     <!-- Product Version Setting -->
       {% set version_links = [
-        {'link': 'https://soyoon-choi-mkdocs-trial.readthedocs-hosted.com/en/7.1/', 'name': '7.1'},
-        {'link': 'https://soyoon-choi-mkdocs-trial.readthedocs-hosted.com/en/7.3/', 'name': '7.3'}
+        {'link': 'https://soyoon-choi-mkdocs-trial.readthedocs-hosted.com/en/7.1/', 'name': 'Altiabse 7.1'},
+        {'link': 'https://soyoon-choi-mkdocs-trial.readthedocs-hosted.com/en/7.3/', 'name': 'Altibase 7.3'}
       ] %}
 
       <div class="md-header__option">
@@ -112,10 +112,11 @@
     {% endif %}
   </nav>
 
-  <!-- Navigation tabs (sticky) -->
+    <!-- Navigation tabs (sticky) -->
   {% if "navigation.tabs.sticky" in features %}
     {% if "navigation.tabs" in features %}
       {% include "partials/tabs.html" %}
     {% endif %}
   {% endif %}
+
 </header>
