@@ -7,7 +7,7 @@ theme:
   palette:
     primary: custom
     accent: custom
-  language: ko
+  language: en
   favicon: img/favicon.ico
   logo: img/logo_w.png
   features:

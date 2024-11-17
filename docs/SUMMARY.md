@@ -66,6 +66,8 @@
         - External Tools/Altibase Heartbeat User's Guide/*.md
     - altiShapeLoader User's Manual
         - External Tools/altiShapeLoader User's Manual/*.md
+    - Hadoop Connector User's Manual
+        - External Tools/Hadoop Connector User's Manual/*.md
     - Migration Center User's Manual
         - External Tools/Migration Center User's Manual/*.md
     - Replication Manager User's Manual

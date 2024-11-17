@@ -80,6 +80,7 @@ hide:
     - [Altibase 3rd Party Connector Guide](External%20Tools/Altibase%203rd%20Party%20Connector%20Guide/1.DBeaver.md)
     - [Altibase Heartbeat User's Guide](External%20Tools/Altibase%20Heartbeat%20User's%20Guide/1.-Introduction-to-Altibase-Heartbeat.md)
     - [altiShapeLoader User's Manual](External%20Tools/altiShapeLoader%20User's%20Manual/1.-Introduction-to-altiShapeLoader.md)
+    - [Hadoop Connector User's Manual](External%20Tools/Hadoop%20Connector%20User's%20Manual/1.%20Introduction%20to%20Altibase%20Hadoop%20Connector.md)
     - [Migration Center User's Manual](External%20Tools/Migration%20Center%20User's%20Manual/1.-Introduction.md)
     - [Replication Manager User's Manual](External%20Tools/Replication%20Manager%20User's%20Manual/1.-Introduction.md)
 
@@ -96,15 +97,3 @@ hide:
     - [Error Message](Admin/Error%20Message%20Reference/1.ID-Error-Code.md)
 
 </div>
-
-## Altibase Welcomes Your Feedback
-
-Your valuable input will help us improve the manual. Please include the following information when sending us your feedback:
-
-- The name and version of the manual
-- Any comments about the manual
-- Your name, address, and phone number
-
-We also welcome feedback on errors, omissions, and other technical issues. If you need quick help, please contact us through our [Altibase Support Center](http://support.altibase.com/en/). We always appreciate your feedback!
-
-We always appreciate your feedback!
