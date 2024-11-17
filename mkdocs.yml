@@ -7,7 +7,7 @@ theme:
   palette:
     primary: custom
     accent: custom
-  language: en
+  language: ko
   favicon: img/favicon.ico
   logo: img/logo_w.png
   features:
@@ -31,12 +31,12 @@ extra:
       lang: ko
   social:
     - icon: fontawesome/brands/github 
-      link: https://github.com/ALTIBASE/Documents/tree/master/Manuals/Altibase_7.1/kor
+      link: https://github.com/ALTIBASE/Documents/tree/master/Manuals/Altibase_7.3/eng
     - icon: fontawesome/solid/house
-      link: https://www.altibase.com/kr/index.php
+      link: https://www.altibase.com/en/index.php
       name: Altibase Home
     - icon: fontawesome/solid/phone
-      link: http://support.altibase.com/kr/
+      link: http://support.altibase.com/en/
       name: Altibase Support Center
   analytics:
     provider: google
