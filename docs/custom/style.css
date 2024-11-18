@@ -138,6 +138,14 @@ readthedocs-flyout { display: none; }
   padding-bottom: 5px;
 }
 
+.menu-content h5 {
+  font-size: 16px;
+  font-weight:lighter;
+  color: #6C6E70;
+  margin: 10px 0 5px;
+  padding-bottom: 5px;
+}
+
 /* 4-6 메뉴얼 리스트 스타일 */
 .menu-content ul {
   list-style: none;
