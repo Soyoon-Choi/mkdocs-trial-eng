@@ -5,12 +5,12 @@
     - Installation Guide
         - Admin/Installation Guide/*.md
     - Administrator's Manual
-        - Admin/Administrator's Manual/*.md
+        - Admin/Administrator’s Manual/*.md
     - Replication Manual
         - Admin/Replication Manual/*.md
     - DB Link User's Manual
         - Admin/DB Link User's Manual/*.md
-    - Altibase SSL TLS User's Guide
+    - Altibase SSL/TLS User's Guide
         - Admin/Altibase SSL TLS User's Guide/*.md
     - Performance Tuning Guide
         - Admin/Performance Tuning Guide/*.md
@@ -18,9 +18,9 @@
         - Admin/SNMP Agent Guide/*.md
     - General Reference
         - Data Types & Properties
-            - Admin/General_Reference-1.Data Types & Altibase Properties/*.md
+            - Admin/General Reference-1.Data Types & Altibase Properties/*.md
         - Data Dictionary
-            - Admin/General_Reference-2.The Data Dictionary/*.md
+            - Admin/General Reference-2.The Data Dictionary/*.md
     - Error Message
         - Admin/Error Message Reference/*.md
 - Developer
@@ -66,6 +66,8 @@
         - External Tools/Altibase Heartbeat User's Guide/*.md
     - altiShapeLoader User's Manual
         - External Tools/altiShapeLoader User's Manual/*.md
+    - Hadoop Connector User's Manual
+        - External Tools/Hadoop Connector User's Manual/*.md
     - Migration Center User's Manual
         - External Tools/Migration Center User's Manual/*.md
     - Replication Manager User's Manual

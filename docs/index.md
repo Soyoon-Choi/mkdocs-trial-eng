@@ -17,7 +17,7 @@ hide:
     - [Getting Started Guide](Admin/Getting%20Started%20Guide/Preface.md)
     - [Installation Guide](Admin/Installation%20Guide/1.-About-the-Altibase-Package-Installer.md)
     - [Release Notes](https://github.com/ALTIBASE/Documents/tree/master/ReleaseNotes/Altibase%207.1)
-    - [Patch Notes](https://github.com/ALTIBASE/Documents/tree/master/PatchNotes/Altibase_7.1)
+    - [Patch Notes](https://github.com/ALTIBASE/Documents/tree/master/PatchNotes/Altibase_7.1/eng)
 
 -   :material-database:{ .lg .middle } **Administration**
 
@@ -31,7 +31,8 @@ hide:
     - [Performance Tuning Guide](Admin/Performance%20Tuning%20Guide/1.-Introduction-to-Performance-Tuning.md)
     - [Replication Manual](Admin/Replication%20Manual/1.-Preface.md)
     - [SNMP Agent Guide](Admin/SNMP%20Agent%20Guide/1.-Introduction-to-SNMP.md)
-        
+      
+
 </div>
 
 <div class="grid cards" markdown>
@@ -48,7 +49,7 @@ hide:
     - [External Procedures Manual](Developer/External%20Procedures%20Manual/1.-Introduction.md)
     - [JDBC User's Manual](Developer/JDBC%20User's%20Manual/1.-Starting-JDBC.md)
     - [ODBC User's Manual](Developer/ODBC%20User's%20Manual/1.-Introduction.md)
-    - [Monitoring API Developer's Guide](Developer/Monitoring%20API%20Developer's%20Guide/1.-Introduction.md
+    - [Monitoring API Developer's Guide](Developer/Monitoring%20API%20Developer's%20Guide/1.-Introduction.md)
     - [Precompiler User's Manual](Developer/Precompiler%20User’s%20Manual/1.-The-CC-Precompiler.md)
     - [Stored Procedures Manual](Developer/Stored%20Procedures%20Manual/1.-Introduction-to-Stored-Procedures.md)
     
@@ -65,6 +66,7 @@ hide:
     - [Log Analyzer User's Manual](Tools/Log%20Analyzer%20User's%20Manual/1.-Log-Analyzer-Introduction.md)
     - [Utilities Manual](Tools/Utilities%20Manual/1.-aexport.md)
     
+
 </div>
 
 <div class="grid cards" markdown>
@@ -78,13 +80,14 @@ hide:
     - [Altibase 3rd Party Connector Guide](External%20Tools/Altibase%203rd%20Party%20Connector%20Guide/1.DBeaver.md)
     - [Altibase Heartbeat User's Guide](External%20Tools/Altibase%20Heartbeat%20User's%20Guide/1.-Introduction-to-Altibase-Heartbeat.md)
     - [altiShapeLoader User's Manual](External%20Tools/altiShapeLoader%20User's%20Manual/1.-Introduction-to-altiShapeLoader.md)
+    - [Hadoop Connector User's Manual](External%20Tools/Hadoop%20Connector%20User's%20Manual/1.%20Introduction%20to%20Altibase%20Hadoop%20Connector.md)
     - [Migration Center User's Manual](External%20Tools/Migration%20Center%20User's%20Manual/1.-Introduction.md)
     - [Replication Manager User's Manual](External%20Tools/Replication%20Manager%20User's%20Manual/1.-Introduction.md)
 
 -   :fontawesome-solid-book:{ .lg .middle } **References**
 
     ---
-     
+    
     A single place for Altibase-related reference materials. Information on a variety of topics including SQL, data types, data dictionaries, error messages, and more.
 
     - [Data Types & Properties](Admin/General%20Reference-1.Data%20Types%20&%20Altibase%20Properties/1.-Data-Types.md)
@@ -94,15 +97,3 @@ hide:
     - [Error Message](Admin/Error%20Message%20Reference/1.ID-Error-Code.md)
 
 </div>
-
-## Altibase Welcomes Your Feedback
-
-Your valuable input will help us improve the manual. Please include the following information when sending us your feedback:
-
-- The name and version of the manual
-- Any comments about the manual
-- Your name, address, and phone number
-
-We also welcome feedback on errors, omissions, and other technical issues. If you need quick help, please contact us through our [Altibase Support Center](http://support.altibase.com/en/). We always appreciate your feedback!
-
-We always appreciate your feedback!
