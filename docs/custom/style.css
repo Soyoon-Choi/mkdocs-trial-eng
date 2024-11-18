@@ -138,7 +138,7 @@ readthedocs-flyout { display: none; }
   padding-bottom: 5px;
 }
 
-.menu-content h5 {
+.menu-content ul h5 {
   font-size: 14px;
   font-weight: normal;
   color: #6C6E70;
