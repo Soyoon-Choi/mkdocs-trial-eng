@@ -94,6 +94,6 @@ hide:
     - [Data Dictionary](Admin/General%20Reference-2.The%20Data%20Dictionary/1.-The-Data-Dictionary.md)
     - [SQL Reference](Developer/SQL%20Reference/1.-Introduction-to-Altibase-SQL.md)
     - [Spatial SQL Reference](Developer/Spatial%20SQL%20Reference/1.-Overview-of-Spatial-Data.md)
-    - [Error Message](Admin/Error%20Message%20Reference/1.ID-Error-Code.md)
+    - [Error Message Reference](Admin/Error%20Message%20Reference/0.Preface.md)
 
 </div>
