@@ -16,8 +16,8 @@ font-size: 1.25rem;
   --md-accent-fg-color: #00ABE4;
 }
 
-/* 1-4 Read the Docs 플라이아웃 메뉴 숨김 
-readthedocs-flyout { display: none; }*/
+/* 1-4 Read the Docs 플라이아웃 메뉴 숨김 */
+readthedocs-flyout { display: none; }
 
 /* 2.헤더 설정 */
 
